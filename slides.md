@@ -46,6 +46,7 @@ giochi, <!-- .element: class="fragment" -->
 
 
 
+![bimbo](img/bimbo.png)
 CoderDojo dimostra come la programmazione possa davvero cambiare il mondo.
 
 
@@ -54,12 +55,16 @@ I Dojo si basano sulla **comunità locale**, l'apprendimento collaborativo **tra
 
 
 
-Non ci sono obiettivi prefissati, si vuole condividere un'esperienza di apprendimento.
+Non ci sono obiettivi prefissati, si vuole condividere un'**esperienza di apprendimento**.
+
 Gratuita e aperta.
 
 
 
+## Principi Fondanti
 ![echo](img/echo.JPG)
+
+[\#Etica]() [\#Cultura]() [\#Felicità]() [\#Risultati]()
 
 
 
@@ -75,23 +80,42 @@ Gratuita e aperta.
 
 - Chiedi a tre e dopo a me! <!-- .element: class="fragment" -->
 
-- Se l'hai fatto puoi giocarci! <!-- .element: class="fragment" -->
+- Se l'hai fatto, puoi giocarci! <!-- .element: class="fragment" -->
 
 
 
 ## Che cosa si impara
-- *Hard Skill*: linguaggi di programmazione, framework e hardware
+</br>
 
-- *Soft Skill*: collaborazione, comunicazione, problem solving, pensiero analitico, autostima
+<div class="column fragment" style="float:left; width: 50%">
+**Hard Skill**
+<p>linguaggi di programmazione, framework e hardware</p>
+</div>
+<div class="column fragment" style="float:right; width: 50%">
+**Soft Skill**
+<p>collaborazione, comunicazione, problem solving, pensiero analitico, autostima</p>
+</div>
 
 
 
 ## Come si impara
-Ogni Dojo è differente, non ci sono curriculum predefiniti. <!-- .element: style="text-align: left" -->
+Ogni Dojo è differente, non ci sono curriculum predefiniti.
+</br>
+<div class="column fragment" style="float:left;width: 45%;margin: 108px 0;">
+![mattoni](img/mattoni.png) <!-- .element: class="noshadow" -->
+</div>
+<div class="column fragment" style="float:right; width: 55%">
+![mattoni](img/casa.png) <!-- .element: class="noshadow" -->
 
-Il Dojo si basa sull'apprendimento per progetti: <!-- .element: style="text-align: left" -->
-1. si insegnano le basi <!-- .element: class="fragment" -->
-1. si insegnano gli argomenti avanzati a seconda dei progetti di ciascuno <!-- .element: class="fragment" -->
+</div>
+note:
+Il Dojo si basa sull'apprendimento per progetti:
+1. si insegnano le basi
+1. si insegnano gli argomenti avanzati a seconda dei progetti di ciascuno
+
+
+
+![logo](img/banner-large.png) <!-- .element: class="noshadow" -->
 
 
 
@@ -105,22 +129,23 @@ Il Dojo si basa sull'apprendimento per progetti: <!-- .element: style="text-alig
 
 
 
-## DojoCon Toscana
+## DojoCon Toscana 2016
 ![dojocon](img/dojocon.png)
 
 
 
-## #
-> Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young.
-
-<small>Henry Ford <!-- .element: style="text-align: right" --> </small>
+<!-- .slide: data-background-video="img/dojocon.mp4" -->
 
 
 
-## Dojo in azione
+## Dojo in Azione
+Tecnologie più utilizzate per l'educazione dei bambini:
+
 - Scratch
 
-- pyGame
+- Python (pyTurtle, pyGame)
+
+- App Inventor
 
 
 
@@ -139,35 +164,96 @@ Sfrutta il paradigma della programmazione imperativa ed ad eventi per animare a 
 ## Scratch: versioni
 Ci sono due versioni entrambe opensource:
 
-- **Scratch 1**, scritto in Smalltalk, disponibile sulle maggiori distribuzioni (`apt-get install scratch`)
+- **Scratch 1.0**, implementato in Smalltalk, disponibile sulle maggiori distribuzioni (`apt-get install scratch`)
 
-- **Scratch 2**, scritto in Flash, disponibile online (https://scratch.mit.edu)
+- **Scratch 2.0**, implementato in Flash, disponibile online (https://scratch.mit.edu)
+
+- **Scratch 3.0**, implementato in HTML5, disponibile dal 2017
 
 
 
-## Scratch: interfaccia
+### Scratch 1.0
 ![img](img/scratch_interfaccia.png)
 
 
 
-## Scratch: comandi
-- **Comandi**: ![img](img/scratch_movimento.png) <!-- .element: class="nomargin" --> sono istruzioni
+### Scratch 2.0
+![img](img/scratch2.png)
 
-- **Situazioni**: ![img](img/scratch_inizio.png) <!-- .element: class="nomargin" --> sono i primi blocchi da utilizzare
 
-- **Funzioni**: ![img](img/scratch_bool.png) <!-- .element: class="nomargin" --> ![img](img/scratch_int.png) <!-- .element: class="nomargin" --> da usare all'interno dei controlli
+### Condividere il tuo progetto
+![img](img/scratch2_share.png)
 
-- **Controllo**: ![img](img/scratch_ripeti.png) <!-- .element: class="nomargin" --> gestiscono il flusso del codice
+
+### Vedere il sorgente
+![img](img/scratch2_inside.png)
+
+
+### Creare un remix
+![img](img/scratch2_tree.png)
+
+
+### Incorporare nell'HTML
+<iframe allowtransparency="true" width="785" height="610" src="//scratch.mit.edu/projects/embed/25195961/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+
+
+## Lo Sprite
+Lo *sprite* è un oggetto a schermo composto da:
+
+- <div>uno o più **costumi**, </div> <!-- .element: class="fragment" -->
+
+- <div>un porzione di **codice** che ne descrive il comportamento,</div> <!-- .element: class="fragment" -->
+
+- <div>una **posizione** sullo schermo.</div> <!-- .element: class="fragment" -->
+
+
+
+## I Blocchi
+- <p>**Comandi**: ![img](img/scratch_movimento.png) <!-- .element: class="nomargin noshadow" --> sono istruzioni </p> <!-- .element: class="fragment" -->
+
+- <p>**Situazioni**: ![img](img/scratch_inizio.png) <!-- .element: class="nomargin noshadow" style="height:70px"--> sono i primi blocchi da utilizzare </p><!-- .element: class="fragment" -->
+
+- <p>**Funzioni**: ![img](img/scratch_bool.png) <!-- .element: class="nomargin noshadow" --> ![img](img/scratch_int.png) <!-- .element: class="nomargin" --> da usare all'interno dei controlli </p> <!-- .element: class="fragment" -->
+
+- <p>**Controllo**: ![img](img/scratch_ripeti.png) <!-- .element: class="nomargin noshadow" --> gestiscono il flusso del codice </p> <!-- .element: class="fragment" -->
 
 
 
 ## Scratch: esempio
-<div class="column" style="float:right; width: 70%">
+<div class="column" style="float:left; width: 35%">
+![img](img/scratch-esempio1.png)
+</div> <!-- .element: class="fragment" -->
+<div class="column" style="float:right; width: 65%">
 ![img](img/scratch-esempio.gif)
-</div>
-<div class="column" style="float:left; width: 30%">
-![img](img/scratch-esempio.png)
-</div>
+</div> <!-- .element: class="fragment" -->
+
+
+![img](img/scratch-esempio1.png)
+
+
+![img](img/scratch-esempio.gif)
+
+
+
+<!-- ![pygame](img/pygame_logo.png) -->
+## Recruit
+Vuoi diventare mentore?
+
+Conosci dei ninja a cui consigliarlo?
+
+contatti:
+
+[pisa.coderdojo.it](http://pisa.coderdojo.it)
+
+[pisa.it@coderdojo.com](pisa.it@coderdojo.com)
+
+
+
+## #
+> Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young.
+
+<small>Henry Ford <!-- .element: style="text-align: right" --> </small>
 
 
 
