@@ -1,12 +1,16 @@
 img {
     max-height: 600px !important;
-    border: 0 !important
 }
 
 .nomargin {
-    margin: 0 !important
+    margin: 0 !important;
 }
 
 .noshadow {
-    box-shadow: none !important
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.noborder{
+    border: 0 !important;
 }

@@ -141,15 +141,15 @@ Il Dojo si basa sull'apprendimento per progetti:
 ## Dojo in Azione
 Tecnologie più utilizzate per l'educazione dei bambini:
 
-- Scratch
+- Scratch <!-- .element: class="fragment" -->
 
-- Python (pyTurtle, pyGame)
+- Python (pyTurtle, pyGame) <!-- .element: class="fragment" -->
 
-- App Inventor
+- App Inventor <!-- .element: class="fragment" -->
 
 
 
-## Scratch
+<!-- ## Scratch -->
 ![img](img/scratch.png)
 
 Scratch è un linguaggio di programmazione visuale a blocchi.
@@ -164,33 +164,33 @@ Sfrutta il paradigma della programmazione imperativa ed ad eventi per animare a 
 ## Scratch: versioni
 Ci sono due versioni entrambe opensource:
 
-- **Scratch 1.0**, implementato in Smalltalk, disponibile sulle maggiori distribuzioni (`apt-get install scratch`)
+- <p>**Scratch 1.0**, implementato in Smalltalk, disponibile sulle maggiori distribuzioni (`apt-get install scratch`)</p> <!-- .element: class="fragment" -->
 
-- **Scratch 2.0**, implementato in Flash, disponibile online (https://scratch.mit.edu)
+- <p>**Scratch 2.0**, implementato in Flash, disponibile online (https://scratch.mit.edu)</p> <!-- .element: class="fragment" -->
 
-- **Scratch 3.0**, implementato in HTML5, disponibile dal 2017
+- <p>**Scratch 3.0**, implementato in HTML5, disponibile dal 2017</p> <!-- .element: class="fragment" -->
 
 
 
 ### Scratch 1.0
-![img](img/scratch_interfaccia.png)
+![img](img/scratch_interfaccia.png) <!-- .element: class="noborder" -->
 
 
 
 ### Scratch 2.0
-![img](img/scratch2.png)
+![img](img/scratch2.png) <!-- .element: class="noborder" -->
 
 
 ### Condividere il tuo progetto
-![img](img/scratch2_share.png)
+![img](img/scratch2_share.png) <!-- .element: class="noborder" -->
 
 
 ### Vedere il sorgente
-![img](img/scratch2_inside.png)
+![img](img/scratch2_inside.png) <!-- .element: class="noborder" -->
 
 
 ### Creare un remix
-![img](img/scratch2_tree.png)
+![img](img/scratch2_tree.png) <!-- .element: class="noborder" -->
 
 
 ### Incorporare nell'HTML
@@ -214,7 +214,7 @@ Lo *sprite* è un oggetto a schermo composto da:
 
 - <p>**Situazioni**: ![img](img/scratch_inizio.png) <!-- .element: class="nomargin noshadow" style="height:70px"--> sono i primi blocchi da utilizzare </p><!-- .element: class="fragment" -->
 
-- <p>**Funzioni**: ![img](img/scratch_bool.png) <!-- .element: class="nomargin noshadow" --> ![img](img/scratch_int.png) <!-- .element: class="nomargin" --> da usare all'interno dei controlli </p> <!-- .element: class="fragment" -->
+- <p>**Funzioni**: ![img](img/scratch_bool.png) <!-- .element: class="nomargin noshadow" --> da usare all'interno dei controlli </p> <!-- .element: class="fragment" -->
 
 - <p>**Controllo**: ![img](img/scratch_ripeti.png) <!-- .element: class="nomargin noshadow" --> gestiscono il flusso del codice </p> <!-- .element: class="fragment" -->
 
@@ -222,17 +222,14 @@ Lo *sprite* è un oggetto a schermo composto da:
 
 ## Scratch: esempio
 <div class="column" style="float:left; width: 35%">
-![img](img/scratch-esempio1.png)
+![img](img/scratch-esempio1.png) <!-- .element: class="noborder" -->
 </div> <!-- .element: class="fragment" -->
 <div class="column" style="float:right; width: 65%">
-![img](img/scratch-esempio.gif)
+![img](img/scratch-esempio.gif) <!-- .element: class="noborder" -->
 </div> <!-- .element: class="fragment" -->
 
 
 ![img](img/scratch-esempio1.png)
-
-
-![img](img/scratch-esempio.gif)
 
 
 
@@ -247,6 +244,8 @@ contatti:
 [pisa.coderdojo.it](http://pisa.coderdojo.it)
 
 [pisa.it@coderdojo.com](pisa.it@coderdojo.com)
+
+![img](img/pisacoderdojo-small.png) <!-- .element: class="noshadow" -->
 
 
 
