@@ -1,4 +1,4 @@
-## Insegniamo ai bambini a programmare
+## Insegniamo ai giovani a programmare
 #### Linux Day 2016 Pisa
 
 <small>a cura di</small>
